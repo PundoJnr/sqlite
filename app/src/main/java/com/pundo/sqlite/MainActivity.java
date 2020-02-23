@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.pundo.sqlite.views.pets;
+import com.pundo.sqlite.views.CatalogActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, pets.class));
+                startActivity(new Intent(MainActivity.this, CatalogActivity.class));
             }
         }, TIME_OUT);
     }
