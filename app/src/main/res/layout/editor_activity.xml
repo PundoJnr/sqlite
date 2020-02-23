@@ -30,7 +30,7 @@
             <!-- Name field -->
             <EditText
                 android:id="@+id/edit_pet_name"
-                android:hint="Pet name"
+                android:hint="@string/hint_pet_name"
                 android:inputType="textCapWords"
                 style="@style/EditorFieldStyle" />
 
